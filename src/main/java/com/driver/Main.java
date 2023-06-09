@@ -4,14 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        System.out.println( p.Product(3,7));
+        System.out.println(p.Product(3, 7));
 
-        System.out.println( p.Product(3,7,23));
+        System.out.println(p.Product(3, 7, 23));
 
-        System.out.println( p.Product(30.0,74.5));
+        System.out.println(p.Product(30.0, 74.5));
     }
+}
 
-  static  class Product{
+    class Product{
 
         public int Product(int x, int y){
             return x + y;
@@ -24,4 +25,3 @@ public class Main {
         }
 
     }
-}
